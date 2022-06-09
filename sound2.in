@@ -1,0 +1,54 @@
+[SCAN]
+# Density in kg/m^3 For BAs
+Density = 1000
+#From google
+
+# Stiffness tensor in GPa, don't forget indentation!
+Stiffness =
+# This is for BP example data from Brillouin scattering
+    0.15   0.095  0.095  0.0    0.0    0.0
+    0.095  0.15   0.095  0.0    0.0    0.0
+    0.095  0.095  0.15   0.0    0.0    0.0
+    0.0    0.0    0.0    0.072  0.0    0.0
+    0.0    0.0    0.0    0.0    0.072  0.0
+    0.0    0.0    0.0    0.0    0.0    0.072
+
+
+#velocity for given directions
+
+velocity = 
+	7.743 8.287 8.187 8.517 8.433
+
+# This will be the step size for the elastic constants.
+StepC11 = 0.25
+StepC12 = 0.5
+StepC44 = 0.125
+C11Range = 100
+C44Range = 50
+#C12Range = 30
+
+
+#The next two secions are not required for my work. They #basically map out all possible waves to find max and min wave #speed. Useful if mapping out the entire wave profile of a #crystal.
+
+# Grid for sampling, optimal results when numphi = 4*numtheta
+#Numtheta = 180
+#Numphi = 720
+
+# Optional redefinition of the x- and z-direction, for rotation of the stiffness tensor
+#zdir = 1 1 1
+#xdir = 1 0 -1
+
+# Special directions of interest. Information about these will be written to directions.dat
+# Don't forget the indentation.
+Directions =
+  -2 20 5
+  -7 25 -15
+  -6 -7 -15
+  16 13 14
+  -5 3 -4
+  
+
+
+
+
+

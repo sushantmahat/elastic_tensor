@@ -1,0 +1,10 @@
+When given a z direction as input, the primary, and two secondary files will have a phase direction
+associated with them.
+
+This phase direction is relativeto the z-direciton given.
+
+So, if given 001 as z direction, the waves will be in the expected 01, 100, and 010 direcitons.
+
+If given 111, the waves will be in 001, xy0,-yx0.
+
+

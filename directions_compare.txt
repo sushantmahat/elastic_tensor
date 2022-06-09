@@ -1,0 +1,30 @@
+Direction: -7.0 8.0 -26.0
+ Primary: 10.725605241473797 km/s
+ Secondary 1: 7.180718914629977 km/s
+ Secondary 2: 6.5772894902583 km/s
+ Secondary avg: 6.879004202444138 km/s
+
+Direction: -1.0 0.0 -5.0
+ Primary: 10.24270264031951 km/s
+ Secondary 1: 7.416198487095665 km/s
+ Secondary 2: 7.067468541670985 km/s
+ Secondary avg: 7.241833514383325 km/s
+
+Direction: -4.0 9.0 -8.0
+ Primary: 11.344380895696098 km/s
+ Secondary 1: 6.935218722945074 km/s
+ Secondary 2: 5.750637558027345 km/s
+ Secondary avg: 6.34292814048621 km/s
+
+Direction: 0.0 1.0 0.0
+ Primary: 9.993101068513079 km/s
+ Secondary 1: 7.416198487095664 km/s
+ Secondary 2: 7.416198487095664 km/s
+ Secondary avg: 7.416198487095664 km/s
+
+Direction: 3.0 4.0 11.0
+ Primary: 10.817572385608926 km/s
+ Secondary 1: 7.156070931949906 km/s
+ Secondary 2: 6.452351932786209 km/s
+ Secondary avg: 6.804211432368058 km/s
+
